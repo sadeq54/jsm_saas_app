@@ -146,7 +146,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
 
             </section>
             <div />
-            <section className="transcript mt-5">
+            <section className={cn("transcript", messages.length > 0 ? "":"overflow-hidden")}>
                 <div className="transcript-message no-scrollbar">
 
                     
